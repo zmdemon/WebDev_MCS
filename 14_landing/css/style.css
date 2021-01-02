@@ -7,7 +7,7 @@
 .header {
 	height: 200px;
 	width: 100%;
-	background: #E5E000;
+	background-color: #E5E000;
 }
 
 .header-title-div {	
@@ -28,14 +28,14 @@
 	width: 100%;
 	height: 1080px;
 
-	background: url(../img/img.png);	
+	background-image: url(../img/img.png);	
 	background-size: cover;
 }
 
 .navigation-nav {	
 	height: 100px;
 	
-	background: #E5E000;
+	background-color: #E5E000;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
@@ -75,7 +75,7 @@ main .main-text {
 .footer {
 	width: 100%;
 	height: 200px;
-	background: #E5E000;
+	background-color: #E5E000;
 	display: flex;
 	align-items: center;
 }
