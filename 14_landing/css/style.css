@@ -69,15 +69,9 @@ main .main-text {
 	font-weight: normal;	
 }
 
-.footer-content {
-	width: 100%;
-	height: 200px;
-	background-color: #E5E000;
-	text-align: right;
-}
+
 
 .footer-text {
-
 	font-family: Helvetica;
 	font-size: 50px;
 	display: inline-block;
@@ -86,9 +80,13 @@ main .main-text {
 	margin: 70px 80px ;
 }
 
-#footerLogo {	
+
+
+.footer {	
 	height: 200px;
 	width: 100%;	
+	background-color: #E5E000;
+	text-align: right;
 	display: inline-block;
 
 	background-image: url(../img/logo.png);
