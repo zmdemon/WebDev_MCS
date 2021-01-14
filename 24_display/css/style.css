@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+.header-div {
+	height: 60px;
+	background-color: red;
+	color: white;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.header-title {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.receip-div {
+	display: inline-block;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	padding: 33px 33px;
+	margin: 52px 25px 52px;
+	
+}
+.receip-text {
+	display: inline-block;
+	font-family: Times New Roman;
+	width: 334px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.receip-title {
+
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: bold;
+	margin-bottom: 41px;
+}
+
+main {
+	padding-left: 70px;
+}
+
+.footer-div {
+	height: 60px;
+	background-color: red;
+	color: white;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.footer-text {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
