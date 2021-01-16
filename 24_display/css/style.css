@@ -23,11 +23,21 @@
 	
 }
 .receip-text {
-	display: inline-block;
+	
 	font-family: Times New Roman;
 	width: 334px;
 	font-size: 20px;
 	line-height: 24px;
+	text-align: left;
+}
+
+.receip-text-title {
+	
+	font-family: Times New Roman;
+	width: 334px;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
 }
 
 .receip-title {
@@ -40,7 +50,8 @@
 }
 
 main {
-	padding-left: 70px;
+	
+	text-align: center;
 }
 
 .footer-div {
