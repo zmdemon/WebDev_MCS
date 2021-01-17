@@ -1,50 +1,81 @@
-@import url(reset.css);
+@import url(specialReset.css);
+
+html { font-size: 10px }
+
+:root {
+  --backgroundColor: red;
+  --borderColor: gold;
+  --based-font: Times New Roman;
+  --title-font: Helvetica;
+  --fontSize: 2rem;
+  --lineHeight: 2.4rem;
+  --receipWidth: 334px;
+  --receipMarginTop: 52px;
+  --receipMarginBottom: 52px;
+  --receipPadding: 33px;
+  --receipBorderRadius: 30px;
+  --receipBorderThickness: 5px;
+  --breadHeight: 60px;
+  --breadPadding: 20px;
+
+  #E5E000
+}
 
 .header-div {
-	height: 60px;
-	background-color: red;
+	height: var(--breadHeight);
+	background-color: var(--backgroundColor);
 	color: white;
-	padding: 20px 20px;
+	padding: var(--breadPadding);
 	box-sizing: border-box;
 }
 
 .header-title {
-	font-family: Helvetica;
+	font-family: var(--title-font);
 	font-weight: bold;
-	font-size: 20px;
+	line-height: var(--lineHeight);
+	font-size: var(--fontSize);
 }
 
 .receip-div {
 	display: inline-block;
-	border: 5px solid #E5E000;
-	border-radius: 30px;
-	padding: 33px 33px;
-	margin: 52px 25px 52px;
+	border: var(--receipBorderThickness) solid var(--borderColor);
+	border-radius: var(--receipBorderRadius);
+	padding: var(--receipPadding);
+	margin-top: var(--receipMarginTop) ;
+	margin-bottom: var(--receipMarginBottom);
+	text-align: left;	
+}
+
+.receip-div-center {
+	display: inline-block;
+	border: var(--receipBorderThickness) solid var(--borderColor);
+	border-radius: var(--receipBorderRadius);
+	padding: var(--receipPadding);
+	margin: var(--receipMarginTop) 50px;
+	text-align: left;
 	
 }
 .receip-text {
+	font-family: var(--based-font);
 	
-	font-family: Times New Roman;
-	width: 334px;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: left;
+	width: var( --receipWidth);
+	font-size: var(--fontSize);
+	line-height: var(--lineHeight);
 }
 
 .receip-text-title {
 	
-	font-family: Times New Roman;
-	width: 334px;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: left;
+	font-family: var(--based-font);
+	width: var( --receipWidth);
+	font-size: var(--fontSize);
+	line-height: var(--lineHeight);
 }
 
 .receip-title {
 
-	font-family: Times New Roman;
-	font-size: 20px;
-	line-height: 23px;
+	font-family: var(--based-font);
+	font-size: var(--fontSize);
+	line-height: var(--lineHeight);
 	font-weight: bold;
 	margin-bottom: 41px;
 }
@@ -55,16 +86,16 @@ main {
 }
 
 .footer-div {
-	height: 60px;
-	background-color: red;
+	height: var(--breadHeight);
+	background-color: var(--backgroundColor);
 	color: white;
-	padding: 20px 20px;
+	padding: var(--breadPadding);
 	box-sizing: border-box;
 }
 
 .footer-text {
-	font-family: Helvetica;
+	font-family: var(--title-font);
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
+	font-size: var(--fontSize);
+	line-height: var(--lineHeight);
 }
