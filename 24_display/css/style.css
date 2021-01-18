@@ -1,83 +1,87 @@
-@import url(specialReset.css);
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
 
 html { font-size: 10px }
 
 :root {
-  --backgroundColor: red;
-  --borderColor: gold;
+  --background-colour: red;
+  --border-color: gold;
   --based-font: Times New Roman;
   --title-font: Helvetica;
-  --fontSize: 2rem;
-  --lineHeight: 2.4rem;
-  --receipWidth: 334px;
-  --receipMarginTop: 52px;
-  --receipMarginBottom: 52px;
-  --receipPadding: 33px;
-  --receipBorderRadius: 30px;
-  --receipBorderThickness: 5px;
-  --breadHeight: 60px;
-  --breadPadding: 20px;
+  --font-size: 2rem;
+  --line-height: 2.4rem;
+  --receip-width: 33.4rem;
+  --vertical-spacing: 5.2rem;
+  --receip-padding: 3.3rem;
+  --receip-border-radius: 3.0rem;
+  --receip-border-thickness: .5rem;
+  --usual-height: 6.0rem;
+  --usual-padding: 2.0rem;
 
-  #E5E000
-}
+  }
 
 .header-div {
-	height: var(--breadHeight);
-	background-color: var(--backgroundColor);
+	height: var(--usual-height);
+	background-color: var(--background-colour);
 	color: white;
-	padding: var(--breadPadding);
+	padding: var(--usual-padding);
 	box-sizing: border-box;
 }
 
 .header-title {
 	font-family: var(--title-font);
 	font-weight: bold;
-	line-height: var(--lineHeight);
-	font-size: var(--fontSize);
+	line-height: var(--line-height);
+	font-size: var(--font-size);
 }
 
 .receip-div {
 	display: inline-block;
-	border: var(--receipBorderThickness) solid var(--borderColor);
-	border-radius: var(--receipBorderRadius);
-	padding: var(--receipPadding);
-	margin-top: var(--receipMarginTop) ;
-	margin-bottom: var(--receipMarginBottom);
-	text-align: left;	
+	border: var(--receip-border-thickness) solid var(--border-color);
+	border-radius: var(--receip-border-radius);
+	padding: var(--receip-padding);
+	margin-top: var(--vertical-spacing) ;
+	margin-bottom: var(--vertical-spacing);
+	text-align: left;		
 }
 
 .receip-div-center {
 	display: inline-block;
-	border: var(--receipBorderThickness) solid var(--borderColor);
-	border-radius: var(--receipBorderRadius);
-	padding: var(--receipPadding);
-	margin: var(--receipMarginTop) 50px;
+	border: var(--receip-border-thickness) solid var(--border-color);
+	border-radius: var(--receip-border-radius);
+	padding: var(--receip-padding);
+	margin: var(--vertical-spacing) 5.0rem;
 	text-align: left;
 	
 }
 .receip-text {
 	font-family: var(--based-font);
 	
-	width: var( --receipWidth);
-	font-size: var(--fontSize);
-	line-height: var(--lineHeight);
+	width: var( --receip-width);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+	list-style: none;
 }
 
 .receip-text-title {
 	
 	font-family: var(--based-font);
-	width: var( --receipWidth);
-	font-size: var(--fontSize);
-	line-height: var(--lineHeight);
+	width: var( --receip-width);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
 }
 
 .receip-title {
 
 	font-family: var(--based-font);
-	font-size: var(--fontSize);
-	line-height: var(--lineHeight);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
 	font-weight: bold;
-	margin-bottom: 41px;
+	margin-bottom: 4.1rem;
 }
 
 main {
@@ -86,16 +90,16 @@ main {
 }
 
 .footer-div {
-	height: var(--breadHeight);
-	background-color: var(--backgroundColor);
+	height: var(--usual-height);
+	background-color: var(--background-colour);
 	color: white;
-	padding: var(--breadPadding);
+	padding: var(--usual-padding);
 	box-sizing: border-box;
 }
 
 .footer-text {
 	font-family: var(--title-font);
 	font-weight: bold;
-	font-size: var(--fontSize);
-	line-height: var(--lineHeight);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
 }
