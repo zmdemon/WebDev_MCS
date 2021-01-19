@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-html { font-size: 10px }
+html { font-size: 62.5%; }
 
 :root {
   --background-colour: red;
@@ -44,6 +44,7 @@ html { font-size: 10px }
 	border: var(--receip-border-thickness) solid var(--border-color);
 	border-radius: var(--receip-border-radius);
 	padding: var(--receip-padding);
+	padding-bottom: 1.2rem;
 	margin-top: var(--vertical-spacing) ;
 	margin-bottom: var(--vertical-spacing);
 	text-align: left;		
@@ -54,17 +55,20 @@ html { font-size: 10px }
 	border: var(--receip-border-thickness) solid var(--border-color);
 	border-radius: var(--receip-border-radius);
 	padding: var(--receip-padding);
+	padding-bottom: 1.2rem;
 	margin: var(--vertical-spacing) 5.0rem;
 	text-align: left;
 	
 }
 .receip-text {
 	font-family: var(--based-font);
-	
+	display: inline-block;
 	width: var( --receip-width);
 	font-size: var(--font-size);
 	line-height: var(--line-height);
 	list-style: none;
+
+	margin-bottom: 2rem;
 }
 
 .receip-text-title {
@@ -81,7 +85,7 @@ html { font-size: 10px }
 	font-size: var(--font-size);
 	line-height: var(--line-height);
 	font-weight: bold;
-	margin-bottom: 4.1rem;
+	margin-bottom: 2.1rem;
 }
 
 main {
