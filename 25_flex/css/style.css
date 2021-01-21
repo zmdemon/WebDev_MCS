@@ -21,11 +21,21 @@ html{
   }
 
 .header {
+
 	height: 14rem;	
+	width: 100%;
 	display: flex;
 	justify-content:space-between;
+	align-items:center;
 	padding: 2.5rem;
+	background-color: white;
+	position: fixed;
 }
+.crutch {
+	height: 14rem;	
+}
+
+
 
 .header-title {
 	font-size: var(--hf-font-size);
