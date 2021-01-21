@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+:root {
+  --text-colour: #E50043;
+  --border-color: #F8BFC7;
+  --based-font: Arial;
+  --hf-font-size: 5rem;
+  --text-font-size: 2.5rem;
+  --line-height: 2.9rem;
+  --border-radius: 2.0rem;
+  --border-thickness: .3rem;
+  }
+
+.header {
+	height: 14rem;	
+	display: flex;
+	justify-content:space-between;
+	padding: 2.5rem;
+}
+
+.header-title {
+	font-size: var(--hf-font-size);
+	flex-grow: 1;
+	margin: 2.5rem;
+	color: var(--text-colour);
+	font-family: var(--based-font);
+}
+
+.header-link {
+	font-size: var(--hf-font-size);
+	margin: 2.5rem;
+	color: var(--text-colour);
+	font-family: var(--based-font);
+	text-decoration: none;
+}
+.main-image {
+	background: url(../img/evian_origins_logo.png) no-repeat center center; 
+	height: 95rem;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	
+}
+
+.main-image-title {
+	font-size: 10rem;
+	font-family: var(--based-font);
+	text-align: center;
+	margin: auto;
+	color: var(--text-colour);
+}
+
+.describtion-div {
+	box-sizing: border-box;
+	width: 105rem;
+	height: 29rem;
+	border:var(--border-thickness) solid var(--border-color);	
+	border-radius: var(--border-radius);
+	margin: 5rem;	
+}
+
+.describtion-container-div, .product-container-div {
+	height: 58rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.product-container-div {
+	height: 101.3rem;	
+	padding-right: 10rem;
+	padding-left: 10rem;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.describtion-text, .describtion-title {
+	font-family: var(--based-font);
+	font-size: var(--text-font-size);
+	line-height: var(--line-height);
+	letter-spacing: 0.05em;
+	text-align: left;
+	margin: 2.5rem;
+}
+
+.wang, .blue, .chiara {
+	height: 97.3rem;
+	width: 28rem;	
+	display: flex;
+	justify-content:center;
+	align-items:flex-end;
+	padding: 1rem;
+	text-align: center;
+	}	
+
+.wang {
+	background: url(../img/wang.png) no-repeat top center;
+	
+}
+
+.blue {
+	background: url(../img/blue.png) no-repeat top center;
+
+}
+
+.chiara {
+	background: url(../img/chiara.png) no-repeat top center;
+}
+
+.product-title {
+	font-size: var(--text-font-size);
+	font-family: var(--based-font);
+	line-height: var(--line-height);
+}
+
+.item-container {
+	height: 58rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-div {
+	height: 28.5rem;
+	width: 104.5rem;
+	border:var(--border-thickness) solid var(--border-color);
+	border-radius: var(--border-radius);
+	display: flex;	
+	align-items: center;
+	margin: 5rem;
+}
+
+.item-image-div {
+	width: 33%;
+	height: 22rem;
+	background: url(../img/glass.png) no-repeat top center;
+}
+
+.item-text-div {
+	width: 74.9rem;
+	height: 22rem;
+	font-family: var(--based-font);
+	font-size: var(--text-font-size);
+	line-height: var(--line-height);
+}	
+
+.item-text-content {
+	margin-bottom: 2.5rem;
+	margin-right: 2.5rem;
+	list-style-type: none;
+}
+
+.footer {
+	height: 14rem;
+	background-color: var(--border-color);
+	display: flex;
+	align-items:center;
+}
+
+.footer-text {
+	font-family: var(--based-font);
+	font-size: var(--hf-font-size);
+	margin: 5rem;
+	color: white;	
+}
+
