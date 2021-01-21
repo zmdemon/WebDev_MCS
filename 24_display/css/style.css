@@ -44,10 +44,11 @@ html { font-size: 62.5%; }
 	border: var(--receip-border-thickness) solid var(--border-color);
 	border-radius: var(--receip-border-radius);
 	padding: var(--receip-padding);
-	padding-bottom: 1.2rem;
+	
 	margin-top: var(--vertical-spacing) ;
 	margin-bottom: var(--vertical-spacing);
-	text-align: left;		
+	text-align: left;	
+
 }
 
 .receip-div-center {
@@ -55,7 +56,7 @@ html { font-size: 62.5%; }
 	border: var(--receip-border-thickness) solid var(--border-color);
 	border-radius: var(--receip-border-radius);
 	padding: var(--receip-padding);
-	padding-bottom: 1.2rem;
+	
 	margin: var(--vertical-spacing) 5.0rem;
 	text-align: left;
 	
@@ -66,8 +67,10 @@ html { font-size: 62.5%; }
 	width: var( --receip-width);
 	font-size: var(--font-size);
 	line-height: var(--line-height);
-	list-style: none;
+	list-style: none;	
+}
 
+.receip-text:not(:last-of-type) {
 	margin-bottom: 2rem;
 }
 
