@@ -15,27 +15,23 @@ html{
   --based-font: Arial;
   --hf-font-size: 5rem;
   --text-font-size: 2.5rem;
-  --line-height: 2.9rem;
-  --border-radius: 2.0rem;
-  --border-thickness: .3rem;
+  --line-height: 2.9rem;  
   }
 
-.header {
+.main {
+	margin-top: 14rem;
+}
 
+.header {
 	height: 14rem;	
 	width: 100%;
-	display: flex;
-	justify-content:space-between;
+	display: flex;	
 	align-items:center;
 	padding: 2.5rem;
 	background-color: white;
 	position: fixed;
+	top:0rem;
 }
-.crutch {
-	height: 14rem;	
-}
-
-
 
 .header-title {
 	font-size: var(--hf-font-size);
@@ -45,6 +41,12 @@ html{
 	font-family: var(--based-font);
 }
 
+.link-ul {
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+}
+
 .header-link {
 	font-size: var(--hf-font-size);
 	margin: 2.5rem;
@@ -52,13 +54,12 @@ html{
 	font-family: var(--based-font);
 	text-decoration: none;
 }
+
 .main-image {
 	background: url(../img/evian_origins_logo.png) no-repeat center center; 
-	height: 95rem;
+	height: 94rem;
 	background-size: cover;
-	display: flex;
-	align-items: center;
-	
+	display: flex;		
 }
 
 .main-image-title {
@@ -72,21 +73,22 @@ html{
 .describtion-div {
 	box-sizing: border-box;
 	width: 105rem;
-	height: 29rem;
-	border:var(--border-thickness) solid var(--border-color);	
-	border-radius: var(--border-radius);
-	margin: 5rem;	
+	/*height: 29rem;*/
+	border: 0.3rem solid var(--border-color);	
+	border-radius: 2rem;
+	margin: 15rem 0rem 15rem ;
+
 }
 
-.describtion-container-div, .product-container-div {
-	height: 58rem;
+.describtion-container-div {
+	/*height: 58rem;*/
 	display: flex;
-	justify-content:center;
-	align-items:center;
+	justify-content:center;	
 }
 
 .product-container-div {
-	height: 101.3rem;	
+	height: 101.3rem;
+	display: flex;	
 	padding-right: 10rem;
 	padding-left: 10rem;
 	justify-content:space-around;
@@ -133,39 +135,42 @@ html{
 }
 
 .item-container {
-	height: 58rem;
+	/*height: 58rem;*/
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: center;	
 }
 
 .item-div {
-	height: 28.5rem;
+	/*height: 28.5rem;*/
 	width: 104.5rem;
-	border:var(--border-thickness) solid var(--border-color);
-	border-radius: var(--border-radius);
+	border: 0.3rem solid var(--border-color);
+	border-radius: 2rem;
 	display: flex;	
 	align-items: center;
-	margin: 5rem;
+	padding: 3rem;
+	margin: 15rem 0;
 }
 
 .item-image-div {
-	width: 33%;
-	height: 22rem;
-	background: url(../img/glass.png) no-repeat top center;
-}
+	width: 10.1rem;
+    height: 22rem;
+    background: url(../img/glass.png) no-repeat center;
+    
+    margin: 0 8rem 0 5rem;}
 
 .item-text-div {
-	width: 74.9rem;
-	height: 22rem;
+	/*width: 74.9rem;*/
+	/*height: 22rem;*/
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: var(--based-font);
 	font-size: var(--text-font-size);
 	line-height: var(--line-height);
 }	
 
-.item-text-content {
-	margin-bottom: 2.5rem;
-	margin-right: 2.5rem;
+.item-text-content {	
 	list-style-type: none;
 }
 
