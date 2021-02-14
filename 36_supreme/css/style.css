@@ -1,0 +1,100 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../img/bg.png") no-repeat center center;
+    background-size: cover;
+
+    padding: 5rem 0 5rem;
+}
+
+p, li {
+    font-size: 2rem;
+    font-family: 'Space Mono', monospace;
+    line-height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+.logo-div {
+    width: 29rem;
+    height: 8rem;
+    background-color: rgba(255, 0, 0, 1);
+    margin: auto;
+}
+
+.header-title {
+    font-family: Arial, sans-serif;
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 6.9rem;
+    letter-spacing: -0.05em;
+    color: snow;
+    text-align: center;
+    cursor: default;
+}
+
+.header-time {
+    text-align: center;
+    padding-top: 3.8rem;
+    color: white;
+}
+
+nav {
+    padding: 9rem 0 7rem;
+}
+
+
+.nav-li:not(:last-of-type) {
+    margin-bottom: 1.2rem;
+}
+
+.sm-ic-div {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+a::selection, p::selection {
+    background: red;
+}
+
+/*Как сделать выделение ссылки красным, как в примере?*/
+
+a:hover, a:active {
+    background: red;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-bottom: 1.5rem;
+    }
+}
+

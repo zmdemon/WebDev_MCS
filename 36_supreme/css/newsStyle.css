@@ -1,0 +1,126 @@
+@import url(style.css);
+
+* {
+    outline: 3px solid indianred;
+    outline: none;
+
+}
+
+@media screen and (min-width: 50px) {
+
+    body {
+        height: auto;
+        background: snow;
+    }
+
+    p, a {
+        color: black;
+    }
+
+    h3, h2 {
+        font-family: 'Space Mono', monospace;
+        font-size: 2rem;
+        letter-spacing: 0em;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        line-height: 3.7rem;
+    }
+
+    .background-div {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: flex-start;
+        margin-bottom: 4rem;
+        padding-top: 3rem;
+    }
+
+    .slider-image {
+        width: 100%;
+        max-width: 39rem;
+    }
+
+    .counter {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .news-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .new {
+        max-width: 40rem;
+    }
+
+    .title {
+        margin-bottom: 1.4rem;
+    }
+
+    .paragraph {
+        line-height: 3rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .paragraph:last-of-type {
+        margin-bottom: 0;
+    }
+
+    /*А как футер с ссылками должен на моб. устройстве выглядеть?*/
+    nav {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .nav-ul {
+        align-items: flex-start;
+        width: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6.2rem;
+    }
+
+    .news-section {
+        margin-bottom: 4rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10rem 0 5rem;
+    }
+
+    .nav-ul {
+        width: 92rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .slider {
+        margin-right: 2rem;
+    }
+
+}
