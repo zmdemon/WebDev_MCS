@@ -48,6 +48,11 @@
         max-width: 39rem;
     }
 
+    .arrow {
+        cursor: pointer;
+
+    }
+
     .counter {
         text-align: center;
         padding-top: 2rem;
@@ -75,7 +80,7 @@
         margin-bottom: 0;
     }
 
-    /*А как футер с ссылками должен на моб. устройстве выглядеть?*/
+
     nav {
         display: flex;
         justify-content: center;
@@ -110,6 +115,19 @@
         justify-content: center;
         width: 100%;
         padding: 10rem 0 5rem;
+    }
+
+    .new {
+        overflow: hidden;
+
+    }
+
+    .par-div {
+        overflow: scroll;
+        height: 30rem;
+    }
+    .par-div::-webkit-scrollbar {
+        display: none;  /* Safari and Chrome */
     }
 
     .nav-ul {
