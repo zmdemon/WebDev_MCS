@@ -31,6 +31,7 @@ html{
 	background-color: white;
 	position: fixed;
 	top:0rem;
+	z-index: 1;
 }
 
 .header-title {
@@ -103,11 +104,16 @@ html{
 	align-items:flex-end;
 	background-size: contain !important;	
 	text-align: center;
+	transition: 0.5s;
 	}	
 
 .wang {
 	background: url(../img/wang.png) no-repeat top center;
 	
+
+}
+.wang:hover {
+	transform: scale(1.03);
 }
 
 .blue {
@@ -115,8 +121,18 @@ html{
 
 }
 
+.blue:hover {
+	transform: rotate(1deg);
+}
+
 .chiara {
 	background: url(../img/chiara.png) no-repeat top center;
+}
+
+.chiara:hover {
+	transition: 60.5s;
+	transform: scale(1.23) rotate(-360deg);
+
 }
 
 .product-title {
