@@ -44,7 +44,6 @@ html {
 .img {	
 	background-size: cover;	
 	background-repeat: no-repeat;
-
 	padding-bottom: 150%;
 }
 
@@ -64,6 +63,7 @@ html {
 	margin: 3rem 3.3rem;
 	font-size: 2rem;
 	line-height: 1.25em;
+	text-align: justify;
 }
 
 .column-title {
